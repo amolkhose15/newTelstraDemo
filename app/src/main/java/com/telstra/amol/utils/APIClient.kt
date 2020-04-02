@@ -7,7 +7,7 @@ class APIClient {
 
     companion object {
 
-        val baseURL: String = "https://dl.dropboxusercontent.com/"
+        val baseURL: String = "https://dl.dropboxusercontent.com/"// Base URL
         var retofit: Retrofit? = null
 
         val client: Retrofit

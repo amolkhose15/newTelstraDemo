@@ -1,13 +1,7 @@
 package com.telstra.amolassignmenttestra.model.pojo
 
-import android.widget.ImageView
-import androidx.databinding.BindingAdapter
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import com.telstra.amolassignmenttestra.R
-
 
 class ApiData {
     @SerializedName("title")
