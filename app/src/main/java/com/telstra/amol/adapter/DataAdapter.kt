@@ -23,9 +23,7 @@ import kotlinx.android.synthetic.main.recycleview_adapter.view.*
 class DataAdapter(mContext: Context, dataModel: List<AppEntity>) :
     RecyclerView.Adapter<DataAdapter.ViewHolder>() {
     var mContext: Context
-
     var dataModel: List<AppEntity>
-
     init {
         this.mContext = mContext
         this.dataModel = dataModel
